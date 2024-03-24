@@ -6,6 +6,6 @@ terraform {
     key            = "mobann-app/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "terraform-state-lock"
-    profile = "default"
+    profile        = "default"
   }
 }
